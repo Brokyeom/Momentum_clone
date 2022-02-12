@@ -47,4 +47,4 @@ const quotes = [
   const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)]; // Math.random 을 quote의 명언 수만큼 랜덤으로 출력하는 변수를 선언한다.
   
   quote.innerText = todaysQuote.quote;
-  author.innerText = todaysQuote.author;
+  author.innerText = ` - ${todaysQuote.author}`;
